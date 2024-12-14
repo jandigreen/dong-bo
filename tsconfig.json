@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ],
+  "compilerOptions": {
+    // absolute path
+    "baseUrl": "src",
+    "paths": {
+      "@*": ["*"],
+      "@api": ["api/*"],
+      "@components/*": ["components/*"],
+      "@layouts/*": ["layouts/*"],
+      "@pages/*": ["pages/*"],
+      "@resources/*": ["resources/*"],
+      "@router/*": ["router/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+      "@stores/*": ["stores/*"]
+    }
+  }
+}
